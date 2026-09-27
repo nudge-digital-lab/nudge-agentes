@@ -1,6 +1,6 @@
-# Nudge Agentes
+# Agentes de nudge
 
-Subagentes personalizados de Claude Code para el trabajo diario de [Nudge](https://github.com/nudge-digital-lab), agencia digital. Cada uno cubre un área específica del proceso: código, diseño, SEO, contenido, propuestas, reportes y operaciones internas.
+Subagentes personalizados de Claude Code para el trabajo diario de [nudge](https://github.com/nudge-digital-lab), agencia digital. Cada uno cubre un área específica del proceso: código, diseño, SEO, contenido, propuestas, reportes y operaciones internas.
 
 Ninguno tiene memoria entre sesiones — hay que pasarle el contexto y los datos reales (cliente, período, cifras, links) en cada invocación.
 

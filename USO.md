@@ -1,4 +1,4 @@
-# Guía de uso — Nudge Agentes
+# Guía de uso — agentes de nudge
 
 Documento completo sobre qué son estos agentes, cómo instalarlos y cómo invocar cada uno con ejemplos reales.
 
@@ -37,7 +37,7 @@ Como no tienen memoria, **siempre hay que darles el contexto completo en el mism
 ## 4. Guía por agente
 
 ### web-code-reviewer
-Revisa código de sitios WordPress que Nudge construye o mantiene: temas, plugins custom, `functions.php`. Chequea seguridad (sanitización/escaping, nonces, capability checks), performance (queries, hooks, carga de assets) y buenas prácticas del ecosistema WordPress.
+Revisa código de sitios WordPress que nudge construye o mantiene: temas, plugins custom, `functions.php`. Chequea seguridad (sanitización/escaping, nonces, capability checks), performance (queries, hooks, carga de assets) y buenas prácticas del ecosistema WordPress.
 
 **Necesita:** ruta de los archivos/carpeta a revisar, tema base, page builder si aplica, plugins clave.
 
@@ -81,14 +81,14 @@ Redacta informes periódicos (típicamente mensuales) de resultados para cliente
 > "Usá client-reporter para el informe de julio de la campaña de Ads de [cliente], objetivo leads, estos son los datos exportados: [datos]."
 
 ### renewals-tracker
-Organiza y prioriza vencimientos: hosting, dominios, SSL, soporte técnico, servicios de Google Ads. Calcula urgencia según las fechas que le pases.
+Organiza y prioriza vencimientos: hosting, dominios, SSL, soporte técnico, servicios de pauta (Google Ads, Meta Ads). Calcula urgencia según las fechas que le pases.
 
 **Necesita:** lista de vencimientos (cliente, servicio, fecha, costo si aplica).
 
 > "Usá renewals-tracker, estos son los vencimientos del mes: [lista con cliente/servicio/fecha]."
 
 ### ops-assistant
-Ayuda con operaciones internas de Nudge: (a) organizar/priorizar tareas pendientes entre proyectos, o (b) generar checklists de procesos repetibles (lanzamiento de sitio, onboarding de cliente nuevo).
+Ayuda con operaciones internas de nudge: (a) organizar/priorizar tareas pendientes entre proyectos, o (b) generar checklists de procesos repetibles (lanzamiento de sitio, onboarding de cliente nuevo).
 
 **Necesita:** estado actual de tareas pendientes, o qué proceso necesitás.
 
