@@ -72,18 +72,13 @@ Arma propuestas y presupuestos para proyectos nuevos (sitios web, paquetes de ma
 > "Usá proposal-writer para armar la propuesta del sitio WordPress de [cliente], paquete básico $X, incluye diseño + 5 secciones + hosting el primer año."
 
 ### client-reporter
-Redacta informes periódicos (típicamente mensuales) de resultados para clientes post-lanzamiento: tráfico, leads, conversiones, ranking.
+Redacta informes periódicos (típicamente mensuales) de resultados para clientes: del sitio o contenido (tráfico, leads, conversiones, ranking) o de campañas pagas (gasto, clics, CTR, CPA, conversiones), con recomendaciones para el próximo período.
 
-**Necesita:** cliente, período que cubre, datos/métricas reales de ese período (no los inventa).
+**Necesita:** cliente, período que cubre, objetivo del trabajo o de la campaña, datos/métricas reales exportados de ese período (no los inventa).
 
 > "Usá client-reporter para el informe mensual de julio de [cliente], estos son los números de Analytics: [datos]."
 
-### ads-reporter
-Redacta informes de performance de Google Ads: gasto, clics, CTR, CPA, conversiones, con insights y recomendaciones accionables.
-
-**Necesita:** cliente, objetivos de campaña, período, datos reales exportados de Google Ads.
-
-> "Usá ads-reporter para el informe de julio de la campaña de [cliente], estos son los datos exportados: [datos]."
+> "Usá client-reporter para el informe de julio de la campaña de Ads de [cliente], objetivo leads, estos son los datos exportados: [datos]."
 
 ### renewals-tracker
 Organiza y prioriza vencimientos: hosting, dominios, SSL, soporte técnico, servicios de Google Ads. Calcula urgencia según las fechas que le pases.

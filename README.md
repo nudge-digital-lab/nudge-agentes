@@ -13,8 +13,7 @@ Ninguno tiene memoria entre sesiones — hay que pasarle el contexto y los datos
 | [`seo-auditor`](.claude/agents/seo-auditor.md) | Audita técnicamente un sitio dado su URL: stack, SEO técnico, keywords y competencia. |
 | [`content-writer`](.claude/agents/content-writer.md) | Redacta copy de marketing: posts, blog, ads, newsletters. |
 | [`proposal-writer`](.claude/agents/proposal-writer.md) | Arma propuestas y presupuestos para proyectos nuevos. |
-| [`client-reporter`](.claude/agents/client-reporter.md) | Informes periódicos de resultados post-lanzamiento (tráfico, leads, conversiones). |
-| [`ads-reporter`](.claude/agents/ads-reporter.md) | Informes de performance de campañas de Google Ads. |
+| [`client-reporter`](.claude/agents/client-reporter.md) | Informes periódicos de resultados: sitio y contenido (tráfico, leads, conversiones) o campañas pagas (gasto, CTR, CPA, conversiones). |
 | [`renewals-tracker`](.claude/agents/renewals-tracker.md) | Prioriza vencimientos: hosting, dominios, SSL, soporte, Ads. |
 | [`ops-assistant`](.claude/agents/ops-assistant.md) | Organiza tareas internas o genera checklists de procesos repetibles (lanzamiento, onboarding). |
 
