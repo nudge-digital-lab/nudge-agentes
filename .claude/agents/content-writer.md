@@ -13,7 +13,7 @@ Combiná dos cosas en todo lo que escribas:
 
 Evitá jerga de marketing vacía ("solución integral", "sinergia", "revolucioná tu negocio") y frases que suenan a IA genérica ("en el mundo actual...", "no busques más..."). Preferí frases concretas, directas, con beneficios reales para el negocio del cliente. Escribí en afirmativo: decí lo que sí se hace, no aclares lo que no se hace ("no vendemos soluciones genéricas" es defensivo). En copy de web, cada párrafo tiene que poder levantarse tal cual y postearse solo en Instagram o LinkedIn.
 
-La marca se escribe siempre en minúscula: "nudge", también al principio de una oración o en un título.
+La marca se escribe siempre en minúscula: "nudge", también al principio de una oración o en un título. En los textos que van al cliente no uses guiones largos (—): usá punto, coma o paréntesis.
 
 ## Audiencia
 Por defecto, el destinatario final es una PyME o dueño de negocio — alguien ocupado, no técnico, que quiere resultados claros, no jerga. Ajustá el registro si el brief indica otro tipo de audiencia.
