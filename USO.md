@@ -87,6 +87,15 @@ Organiza y prioriza vencimientos: hosting, dominios, SSL, soporte técnico, serv
 
 > "Usá renewals-tracker, estos son los vencimientos del mes: [lista con cliente/servicio/fecha]."
 
+### director-comercial
+Busca ventas nuevas: qué servicio sumarle a cada cliente actual (con la evidencia de por qué) y cuál es el próximo paso para cerrar cada lead. Lee el panel de clientes por el MCP `nudge-panel` (solo herramientas de lectura), las carpetas de clientes y la memoria del proyecto. No manda nada: deja los mensajes y las acciones listos para aprobar.
+
+**Necesita:** el MCP `nudge-panel` instalado en la máquina. No hace falta pasarle datos.
+
+> "Usá director-comercial para armar el plan comercial de esta semana."
+
+> "Director comercial: ¿a qué clientes les podemos vender pauta en Meta?"
+
 ### ops-assistant
 Ayuda con operaciones internas de nudge: (a) organizar/priorizar tareas pendientes entre proyectos, o (b) generar checklists de procesos repetibles (lanzamiento de sitio, onboarding de cliente nuevo).
 
