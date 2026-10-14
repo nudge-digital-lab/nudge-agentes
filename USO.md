@@ -96,6 +96,26 @@ Busca ventas nuevas: qué servicio sumarle a cada cliente actual (con la evidenc
 
 > "Director comercial: ¿a qué clientes les podemos vender pauta en Meta?"
 
+### director-marketing
+Que entren consultas y leads a nudge con el marketing propio de la agencia: la pauta de nudge, la web, el newsletter, las redes y nudge scan. Mide el embudo (consultas por origen → leads en el CRM → ganados), elige qué servicio empujar y deja las campañas y las piezas listas para aprobar. Lee el último informe del comercial para saber qué fuentes venden.
+
+> "Usá director-marketing para el plan de marketing de esta semana."
+
+> "Director de marketing: ¿qué servicio conviene empujar este mes?"
+
+### onboarding
+Da de alta a cada cliente nuevo, desde que el lead sale ganado o paga hasta que desarrollo arranca: ficha y servicios en el panel, cobro registrado, bienvenida con acceso, brief, accesos (Meta como socio, Google Ads al MCC, nameservers, partner de Tiendanube), "Tu proyecto" y traspaso a desarrollo. También avisa de los clientes que quedaron a mitad del alta.
+
+> "Onboarding: ¿quién quedó a medio dar de alta?"
+
+### director-desarrollo
+La parte operativa de la agencia: el inventario de proyectos, servicios y campañas en curso con su estado, las alertas rojas (cobrado sin entregar, reclamos sin respuesta, campañas sin publicar, sitios caídos, vencimientos), quién destraba cada bloqueo y el plan de la semana ordenado por impacto, con el próximo paso técnico de cada tarea.
+
+> "Director de desarrollo: armá el plan operativo de la semana."
+
+### La ronda de dirección
+Los cuatro directores se pasan el trabajo con informes en `~/Documents/nudge-direccion/`. Pedile a Claude "hacé la ronda de dirección" y corre marketing → comercial → onboarding → desarrollo, guarda cada informe y te deja un resumen con lo que hay que aprobar.
+
 ### ops-assistant
 Ayuda con operaciones internas de nudge: (a) organizar/priorizar tareas pendientes entre proyectos, o (b) generar checklists de procesos repetibles (lanzamiento de sitio, onboarding de cliente nuevo).
 
