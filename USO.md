@@ -88,9 +88,9 @@ Organiza y prioriza vencimientos: hosting, dominios, SSL, soporte técnico, serv
 > "Usá renewals-tracker, estos son los vencimientos del mes: [lista con cliente/servicio/fecha]."
 
 ### director-comercial
-Busca ventas nuevas: qué servicio sumarle a cada cliente actual (con la evidencia de por qué) y cuál es el próximo paso para cerrar cada lead. Lee el panel de clientes por el MCP `nudge-panel` (solo herramientas de lectura), las carpetas de clientes y la memoria del proyecto. No manda nada: deja los mensajes y las acciones listos para aprobar.
+Busca ventas nuevas: qué servicio sumarle a cada cliente actual (con la evidencia de por qué) y cuál es el próximo paso para cerrar cada lead. Tiene acceso de lectura a todo: el CRM de ventas (MCP `nudge-ventas`: pipeline, leads, presupuestos), el panel de clientes (`nudge-panel`, incluidas las solicitudes web), las cuentas de Google Ads y Meta Ads, Gmail, Google Calendar, Calendly, Airtable, la web, las carpetas de clientes y la memoria del proyecto. No escribe ni manda nada: deja los mensajes y las acciones listos para aprobar.
 
-**Necesita:** el MCP `nudge-panel` instalado en la máquina. No hace falta pasarle datos.
+**Necesita:** los MCP `nudge-ventas`, `nudge-panel`, `google-ads` y `meta-ads` instalados en la máquina, y los conectores de Gmail, Google Calendar, Calendly y Airtable. Si falta alguno, trabaja con el resto. No hace falta pasarle datos.
 
 > "Usá director-comercial para armar el plan comercial de esta semana."
 

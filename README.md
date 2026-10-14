@@ -15,7 +15,7 @@ Ninguno tiene memoria entre sesiones — hay que pasarle el contexto y los datos
 | [`proposal-writer`](.claude/agents/proposal-writer.md) | Arma propuestas y presupuestos para proyectos nuevos. |
 | [`client-reporter`](.claude/agents/client-reporter.md) | Informes periódicos de resultados: sitio y contenido (tráfico, leads, conversiones) o campañas pagas (gasto, CTR, CPA, conversiones). |
 | [`renewals-tracker`](.claude/agents/renewals-tracker.md) | Prioriza vencimientos: hosting, dominios, SSL, soporte, Ads. |
-| [`director-comercial`](.claude/agents/director-comercial.md) | Busca ventas: servicios nuevos para clientes actuales y cierre de leads, con datos del panel (MCP `nudge-panel`). Solo lee y propone. |
+| [`director-comercial`](.claude/agents/director-comercial.md) | Busca ventas: servicios nuevos para clientes actuales y cierre de leads. Lee todo: CRM de ventas (MCP `nudge-ventas`), panel (`nudge-panel`), Google Ads, Meta Ads, Gmail, agenda, Airtable y la web. Solo lee y propone. |
 | [`ops-assistant`](.claude/agents/ops-assistant.md) | Organiza tareas internas o genera checklists de procesos repetibles (lanzamiento, onboarding). |
 
 ## Uso
