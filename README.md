@@ -16,16 +16,29 @@ Ninguno tiene memoria entre sesiones — hay que pasarle el contexto y los datos
 | [`client-reporter`](.claude/agents/client-reporter.md) | Informes periódicos de resultados: sitio y contenido (tráfico, leads, conversiones) o campañas pagas (gasto, CTR, CPA, conversiones). |
 | [`renewals-tracker`](.claude/agents/renewals-tracker.md) | Prioriza vencimientos: hosting, dominios, SSL, soporte, Ads. |
 | [`director-marketing`](.claude/agents/director-marketing.md) | Dirección: que entren consultas y leads a nudge con su marketing propio (pauta de nudge, web, newsletter, redes). Mide de dónde vienen y cuáles cierran. Solo lee y propone. |
-| [`director-comercial`](.claude/agents/director-comercial.md) | Dirección: busca ventas: servicios nuevos para clientes actuales y cierre de leads. Lee todo: CRM de ventas (MCP `nudge-ventas`), panel (`nudge-panel`), Google Ads, Meta Ads, Gmail, agenda, Airtable y la web. Solo lee y propone. |
-| [`onboarding`](.claude/agents/onboarding.md) | Dirección: da de alta a cada cliente nuevo (ficha y servicios en el panel, bienvenida, brief, accesos, "Tu proyecto") hasta el traspaso a desarrollo, y detecta altas a medias. Solo lee y propone. |
-| [`director-desarrollo`](.claude/agents/director-desarrollo.md) | Dirección: la parte operativa. Inventario de proyectos y campañas, alertas (cobrado sin entregar, reclamos, vencimientos), bloqueos y plan de la semana. Solo lee y propone. |
+| [`director-ventas`](.claude/agents/director-ventas.md) | Dirección: el closer. Prospectos, leads, presupuestos, seguimiento hasta el cierre o la pérdida (con motivo) y proyección del mes. Escribe en el CRM de ventas (`nudge-ventas`); su cancha termina con el presupuesto aceptado y el 50% pagado. |
+| [`director-onboarding`](.claude/agents/director-onboarding.md) | Dirección: desde el pase automático hasta el alta completa (formulario de alta, accesos de terceros, alcance del proyecto). Escribe en la ficha del panel (`nudge-panel`). |
+| [`director-proyectos`](.claude/agents/director-proyectos.md) | Dirección: ficha documentada de cada proyecto (alcance, entregables, decisiones, bitácora), trabados y atrasados, entrega. Escribe en la ficha interna del panel. |
+| [`director-finanzas`](.claude/agents/director-finanzas.md) | Dirección: saldo después de la entrega, pagos, renovaciones, vencimientos y resumen de cobros. Escribe en el cobro y los comprobantes del panel. |
 | [`ops-assistant`](.claude/agents/ops-assistant.md) | Organiza tareas internas o genera checklists de procesos repetibles (lanzamiento, onboarding). |
 
 ## La dirección: cómo trabajan juntos
 
-Los cuatro agentes de dirección cubren el recorrido completo de un cliente: **marketing** trae las consultas, el **comercial** las cierra, **onboarding** da de alta al cliente y **desarrollo** entrega y opera. Los cuatro leen todo (CRM de ventas, panel, Google Ads, Meta Ads, Gmail, agenda, Airtable y la web) y no escriben nada: proponen y Jorge aprueba en la sesión principal.
+La dirección cubre el recorrido completo de un cliente, con traspasos fijos:
+- **Ventas → Onboarding:** presupuesto aceptado + 50% pagado. El pase al panel es automático.
+- **Onboarding → Proyectos:** alta completa.
+- **Proyectos → Finanzas:** proyecto entregado, que dispara el cobro del saldo.
 
-Se pasan el trabajo con informes en `~/Documents/nudge-direccion/` (`AAAA-MM-DD-<area>.md`). La sesión principal guarda cada informe después de que Jorge lo ve, y cada director lee el último de los otros antes de armar el suyo. Ronda semanal: marketing → comercial → onboarding → desarrollo.
+**Marketing** trae las consultas y solo lee.
+
+**Todo va al CRM**, y cada director escribe solo en su parte. Lo que necesita autorización lo suben como acción a Mi día → Dirección y Jorge lo aprueba:
+- mensajes a clientes;
+- precios y descuentos;
+- bajas;
+- facturas;
+- cambios en los plugins.
+
+Ningún director tiene herramientas para mandar mails. Ver [`CLAUDE.md`](CLAUDE.md) (se instala en `~/.claude/CLAUDE.md`).
 
 ## Uso
 
