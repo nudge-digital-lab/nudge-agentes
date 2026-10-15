@@ -20,6 +20,7 @@ Ninguno tiene memoria entre sesiones — hay que pasarle el contexto y los datos
 | [`director-onboarding`](.claude/agents/director-onboarding.md) | Dirección: desde el pase automático hasta el alta completa (formulario de alta, accesos de terceros, alcance del proyecto). Escribe en la ficha del panel (`nudge-panel`). |
 | [`director-proyectos`](.claude/agents/director-proyectos.md) | Dirección: ficha documentada de cada proyecto (alcance, entregables, decisiones, bitácora), trabados y atrasados, entrega. Escribe en la ficha interna del panel. |
 | [`director-finanzas`](.claude/agents/director-finanzas.md) | Dirección: saldo después de la entrega, pagos, renovaciones, vencimientos y resumen de cobros. Escribe en el cobro y los comprobantes del panel. |
+| [`director-pauta`](.claude/agents/director-pauta.md) | Dirección: la parte operativa de las campañas de los clientes en Google Ads y Meta Ads (medición, saldo, consultas reales y falsas, caídas, cambios con su porqué). Deja notas en la ficha; los cambios de campañas los sube como acción para que Jorge los apruebe. |
 | [`ops-assistant`](.claude/agents/ops-assistant.md) | Organiza tareas internas o genera checklists de procesos repetibles (lanzamiento, onboarding). |
 
 ## La dirección: cómo trabajan juntos

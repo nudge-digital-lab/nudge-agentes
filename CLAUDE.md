@@ -26,6 +26,7 @@ Están conectados con una clave compartida:
 | `director-onboarding` | Revisa el alta automática, el formulario de alta, los accesos y el alcance, hasta pasar el cliente a Proyectos | Ficha del cliente |
 | `director-proyectos` | Ficha documentada de cada proyecto (alcance, entregables, decisiones, bitácora), trabados y atrasados, entrega | Ficha interna, «Tu proyecto» y cobro (entrega) |
 | `director-finanzas` | Saldo después de la entrega, pagos, renovaciones, vencimientos y resumen de cobros | Cobro, comprobantes y renovaciones |
+| `director-pauta` | Las campañas de Google Ads y Meta Ads de todos los clientes con pauta activa: medición, saldo, consultas reales (y falsas), caídas y cambios propuestos con su porqué. No recibe traspasos | Notas de la ficha; los cambios de campañas van como acción a Dirección |
 | `director-marketing` | Que entren consultas a nudge. Le pasa los leads a Ventas | Nada (solo lee) |
 
 1. **Ventas → Onboarding:** presupuesto aceptado más anticipo registrado (`presupuesto_anticipo`). El pase al panel es automático.
@@ -34,6 +35,8 @@ Están conectados con una clave compartida:
 4. **Finanzas → cliente activo:** saldo pagado. Desde ahí solo se siguen las renovaciones.
 
 Ningún cliente queda sin director a cargo. Si hay un caso dudoso, se le escala a Jorge.
+
+Pauta va al costado de la línea: sigue las cuentas de Google y Meta de cada cliente con servicio de pauta activo, esté a cargo quien esté. No tiene herramientas para cambiar campañas: cada cambio sube como acción a Dirección (área `pauta`) y se ejecuta desde la sesión principal con el OK de Jorge.
 
 ## Reglas
 
