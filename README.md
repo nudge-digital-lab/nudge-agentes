@@ -15,7 +15,7 @@ Ninguno tiene memoria entre sesiones — hay que pasarle el contexto y los datos
 | [`proposal-writer`](.claude/agents/proposal-writer.md) | Arma propuestas y presupuestos para proyectos nuevos. |
 | [`client-reporter`](.claude/agents/client-reporter.md) | Informes periódicos de resultados: sitio y contenido (tráfico, leads, conversiones) o campañas pagas (gasto, CTR, CPA, conversiones). |
 | [`renewals-tracker`](.claude/agents/renewals-tracker.md) | Prioriza vencimientos: hosting, dominios, SSL, soporte, Ads. |
-| [`director-marketing`](.claude/agents/director-marketing.md) | Dirección: que entren consultas y leads a nudge con su marketing propio (pauta de nudge, web, newsletter, redes). Mide de dónde vienen y cuáles cierran. Solo lee y propone. |
+| [`director-marketing`](.claude/agents/director-marketing.md) | Dirección: que entren consultas y leads a nudge con su marketing propio, por ahora solo orgánico (web, newsletter, redes). Mide de dónde vienen y cuáles cierran. Solo lee y propone. |
 | [`director-ventas`](.claude/agents/director-ventas.md) | Dirección: el closer. Prospectos, leads, presupuestos, seguimiento hasta el cierre o la pérdida (con motivo) y proyección del mes. Escribe en el CRM de ventas (`nudge-ventas`); su cancha termina con el presupuesto aceptado y el 50% pagado. |
 | [`director-onboarding`](.claude/agents/director-onboarding.md) | Dirección: desde el pase automático hasta el alta completa (formulario de alta, accesos de terceros, alcance del proyecto). Escribe en la ficha del panel (`nudge-panel`). |
 | [`director-proyectos`](.claude/agents/director-proyectos.md) | Dirección: ficha documentada de cada proyecto (alcance, entregables, decisiones, bitácora), trabados y atrasados, entrega. Escribe en la ficha interna del panel. |

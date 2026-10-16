@@ -97,7 +97,7 @@ Busca ventas nuevas: qué servicio sumarle a cada cliente actual (con la evidenc
 > "Director comercial: ¿a qué clientes les podemos vender pauta en Meta?"
 
 ### director-marketing
-Que entren consultas y leads a nudge con el marketing propio de la agencia: la pauta de nudge, la web, el newsletter, las redes y nudge scan. Mide el embudo (consultas por origen → leads en el CRM → ganados), elige qué servicio empujar y deja las campañas y las piezas listas para aprobar. Lee el último informe del comercial para saber qué fuentes venden.
+Que entren consultas y leads a nudge con el marketing propio de la agencia, que por ahora es solo orgánico (sin pauta paga hasta nuevo aviso): la web, el newsletter, las redes y nudge scan. Mide el embudo (consultas por origen → leads en el CRM → ganados), elige qué servicio empujar y deja las piezas listas para aprobar. Lee el último informe del comercial para saber qué fuentes venden.
 
 > "Usá director-marketing para el plan de marketing de esta semana."
 
