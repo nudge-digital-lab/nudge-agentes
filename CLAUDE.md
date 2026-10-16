@@ -27,7 +27,7 @@ Están conectados con una clave compartida:
 | `director-proyectos` | Ficha documentada de cada proyecto (alcance, entregables, decisiones, bitácora), trabados y atrasados, entrega | Ficha interna, «Tu proyecto» y cobro (entrega) |
 | `director-finanzas` | Saldo después de la entrega, pagos, renovaciones, vencimientos y resumen de cobros | Cobro, comprobantes y renovaciones |
 | `director-pauta` | Las campañas de Google Ads y Meta Ads de todos los clientes con pauta activa: medición, saldo, consultas reales (y falsas), caídas y cambios propuestos con su porqué. No recibe traspasos | Notas de la ficha; los cambios de campañas van como acción a Dirección |
-| `director-marketing` | Que entren consultas a nudge. Le pasa los leads a Ventas | Nada (solo lee) |
+| `director-marketing` | Que entren consultas a nudge, solo con marketing orgánico. Le pasa los leads a Ventas | Nada (solo lee) |
 
 1. **Ventas → Onboarding:** presupuesto aceptado más anticipo registrado (`presupuesto_anticipo`). El pase al panel es automático.
 2. **Onboarding → Proyectos:** alta completa, con el formulario, los accesos y la ficha interna armada (`director_cambiar`).
@@ -40,6 +40,7 @@ Pauta va al costado de la línea: sigue las cuentas de Google y Meta de cada cli
 
 ## Reglas
 
+- **nudge sin pauta propia hasta que Jorge avise (desde el 15/10/2026).** Ningún director propone ni pregunta por campañas pagas de nudge (Google, Meta, promociones): el marketing propio es solo orgánico. La pauta de los clientes sigue igual.
 - **Todo va al CRM.** Lo que generan los directores (y esta sesión) se vuelca en el CRM que corresponde: nota, bitácora, próxima acción o informe. Nada queda solo en una conversación.
 - **Cada director escribe solo en su parte.** Lo de otro se le pasa con una nota y en el informe, no se hace.
 - **Siempre con autorización de Jorge:**
